@@ -1,0 +1,147 @@
+$light-cyan: #3d8168;
+$dark-cyan: #1a4032;
+$cream: hsl(30, 38%, 92%);
+$very-dark-blue: hsl(212, 21%, 14%);
+$dark-grayish-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', san-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $cream;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 343px;
+  height: 611px;
+
+  .media {
+    background: url('./images/image-product-mobile.jpg');
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .content {
+    padding: 1.57em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .subhead {
+      color: $dark-grayish-blue;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.32rem;
+      margin-bottom: 1em;
+      text-transform: uppercase;
+    }
+
+    .header {
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+      line-height: 1em;
+      color: $very-dark-blue;
+      margin-bottom: 0.5em;
+      font-size: 2rem;
+    }
+
+    .text {
+      font-size: 0.88rem;
+      line-height: 1.75em;
+      color: $dark-grayish-blue;
+      margin-bottom: 1em;
+      font-weight: 500;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.33em;
+
+      .sale {
+        color: $light-cyan;
+        font-size: 2em;
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        margin-right: 1em;
+      }
+
+      .original {
+        text-decoration: line-through;
+        color: $dark-grayish-blue;
+        font-weight: medium;
+        font-size: 0.82rem;
+      }
+    }
+
+    .btn {
+      background-color: $light-cyan;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 48px;
+      cursor: pointer;
+      border: none;
+
+      &:hover {
+        background-color: $dark-cyan;
+      }
+
+      .icon {
+        margin-right: 0.5em;
+      }
+
+      .label {
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+
+    .media {
+      background: url('./images/image-product-desktop.jpg');
+      height: 100%;
+      width: 50%;
+      background-size: cover;
+      border-radius: 10px 0 0 10px;
+    }
+
+    .content {
+      width: 50%;
+      padding: 2em;
+    }
+  }
+}

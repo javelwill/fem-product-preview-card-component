@@ -6,6 +6,11 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
 ## Overview
 
@@ -15,3 +20,27 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [https://github.com/javelwilson/product-preview-card-component](https://github.com/javelwilson/product-preview-card-component)
+- Live Site URL: [https://javelwilson.github.io/product-preview-card-component/](https://javelwilson.github.io/product-preview-card-component/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- SASS/SCSS
+- Mobile-first workflow
+
+## Author
+
+- Website - [Javel Wilson](https://javelwilson.com)
+- Frontend Mentor - [@javelwilson](https://www.frontendmentor.io/profile/javelwilson)

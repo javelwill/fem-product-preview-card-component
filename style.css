@@ -66,7 +66,7 @@ body {
   font-size: 2em;
   font-weight: 700;
   font-family: "Fraunces", serif;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 .card .content .price .original {
   text-decoration: line-through;

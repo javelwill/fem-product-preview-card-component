@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/javelwilson/product-preview-card-component](https://github.com/javelwilson/product-preview-card-component)
-- Live Site URL: [https://javelwilson.github.io/product-preview-card-component/](https://javelwilson.github.io/product-preview-card-component/)
+- Solution URL: [https://github.com/javelwilson/fem-product-preview-card-component](https://github.com/javelwilson/fem-product-preview-card-component)
+- Live Site URL: [https://javelwilson.github.io/fem-product-preview-card-component/](https://javelwilson.github.io/fem-product-preview-card-component/)
 
 ## My process
 
